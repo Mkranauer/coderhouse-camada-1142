@@ -1,0 +1,159 @@
+.contenedor{
+	margin: auto;
+	max-width: 1000px;	
+}
+
+nav{
+	padding: 30px 0;	
+}
+
+nav ul li{
+	margin: 0 10px;
+}
+
+.menu-izquierda{
+	float: right;	
+}
+
+.menu-izquierda li{
+	display: inline-block;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;	
+	position: relative;	
+}
+
+.contenedor ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+.logo{
+	display: inline-block;
+	position: absolute;	
+}
+
+.buscador{
+	padding-left: 400px;	
+}
+
+input[type="text"]{
+	width: 600px;
+	height: 40px;
+	padding: 10px;
+}
+
+.boton1{
+	width:150px;
+    height:64px;
+    border: 0;
+    font-size:10px;
+    font-family:arial, helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;     
+}
+
+.interes{
+	padding-left: 250px;
+}
+.interes article{
+	width: 20%;
+	display: inline-block;	
+	padding: 100px 50px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.interes2{
+	margin-left: 150px;
+}
+
+.interes2 h2, .interes2 h4{
+	text-align: center;	
+}
+
+.interes2 ul{
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+
+.interes3 article{
+	display: inline-block;
+}
+
+.interes3 ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 50px;	
+}
+
+.interes3 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.boton2{
+	width: 180px;
+	height: 40px;
+	background: #00BFFF;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.relleno{
+	width: auto;
+	height: 150px;
+	background:#00223b;
+	color: white; 
+}
+
+.relleno h3{
+	display: inline-block;
+	padding-left: 500px;
+	padding-top: 2em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.relleno h3 span{
+	color:#00BFFF;
+	font-size: 30px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+footer{
+	width: auto;
+	height: 80px;
+	background: #001321;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+footer p{
+	color: white;
+	display: inline-block;
+}
+
+.almenu li span{
+	color: white;
+	font-size: 12px;	
+	font-family:arial, helvetica, sans-serif; 
+}
+
+.almenu{
+	float: right;
+}
+
+.almenu li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+span{
+	display: inline-block;
+	text-align: center;
+	box-sizing:border-box;	
+}
