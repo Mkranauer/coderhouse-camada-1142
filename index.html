@@ -3,246 +3,278 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Mi primer TP html</title>
+		<link rel="stylesheet" type="text/css" href="css\reset.css">
 		<link rel="stylesheet" type="text/css" href="css\style.css">	
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="contenedor">
-					<div class="logo">
-						<img class="logo"src="css\imagen\logo1.png">
-					</div>
-					<ul class="menu-izquierda">
-						<li>
-	            			<a href="CONTACT.html">
-	            				HOME
-	            			</a>	
-	            		</li>
-	            		<li>
-	            			<a href="CONTACT.html">
-	            				CONTACT
-	            			</a>
-	            		</li>            	
-					</ul>					
-				</div>								
-			</nav>
-
+	<body>		
+		<nav>
+			<div class="contenedor">
+				<div class="logo">
+					<img class="logo"src="css\imagen\logo1.png">
+				</div>
+				<ul class="menu-izquierda">
+					<li><a href="home.html">HOME</a></li>
+            		<li><a href="contact.html">CONTACT</a></li>            	
+				</ul>					
+			</div>								
+		</nav>
+		<header>	
 			<div class="banner">
 				<img src="css\imagen\banner1.jpg">
 			</div>
-
-			<div class="buscador">
-				<input type="text" placeholder="soy un input">
-				<button class="boton1">SEARCH</button>
-			</div>
+			<form class="buscador">
+				 <input type="text" placeholder="Enter you domain name and hit enter">
+				<button type="submit" class="boton1">SEARCH</button>
+			</form>				
 		</header>
-
 		<section class="interes">
-			<article>
-				<img src="css\imagen\wid1.png">
-				<h6>SPEED SERVERS</h6>
-				<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
-			</article>
+			<div class="contenedor">
+				<article>
+					<div class="iconos">
+						<img src="css\imagen\wid1.png">
+						<h6>SPEED SERVERS</h6>
+						<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
+					</div>
+				</article>
 
-			<article>
-				<img src="css\imagen\wid2.png">
-				<h6>HOSTRO SERVICES</h6>
-				<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
-			</article>
+				<article>
+					<div class="iconos">
+						<img src="css\imagen\wid2.png">
+						<h6>HOSTRO SERVICES</h6>
+						<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
+					</div>
+				</article>
 
-			<article>
-				<img src="css\imagen\wid3.png">
-				<h6>LIVE SUPPORT</h6>
-				<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
-			</article>
+				<article>
+					<div class="iconos">
+						<img src="css\imagen\wid3.png">
+						<h6>LIVE SUPPORT</h6>
+						<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
+					</div>
+				</article>
 
-			<article>
-				<img src="css\imagen\wid4.png">
-				<h6>GET DOMAIN NAME</h6>
-				<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
-			</article>
-
+				<article>
+					<div class="iconos">
+						<img src="css\imagen\wid4.png">
+						<h6>GET DOMAIN NAME</h6>
+						<p>Mauris vehicula felis vulputate velil semper, nec mellis nisi aliquam</p>
+					</div>
+				</article>
+			</div>
 		</section>
-
 		<section class="interes2">
-			<h2>A Subtitle</h2>
-			<h4>Some text Some text Some text</h4>
-			<ul>
-				<li>
-					<article>
-						<img src="css\imagen\ser1.png">
-						<h4>RETINA READY</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>	
-				</li>
-				<li>		
-					<article>
-						<img src="css\imagen\ser2.png">
-						<h4>EASY CUSTOMIZE</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>
-				</li>
-				<li>
-					<article>
-						<img src="css\imagen\ser3.png">
-						<h4>PIXEL PERFECT</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>
-				</li>			
-			</ul>
-			<img src="css\imagen\iphone2.png">
-			<ul>
-				<li>
-					<article>
-						<img src="css\imagen\ser4.png">
-						<h4>UNLIMITED COLORS</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>
-				</li>
-				<li>
-					<article>
-						<img src="css\imagen\ser5.png">
-						<h4>FEATURES</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>
-				</li>
-				<li>
-					<article>
-						<img src="css\imagen\ser6.png">
-						<h4>SUPPORT TODAY</h4>
-						<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
-					</article>
-				</li>
-			</ul>
-		</section>	
-		
-		<section class="interes3">	
-			<div>
-				<img src="css\imagen\pricing-bg.jpg">
-				<h2>Pricing Tables</h2>
-				<h4>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
-			</div>		
-			<ul>
-				<li>
-					<article>
-						<h3>SMALL PACKAGE</h3>
-						<h4>Fashion</h4>
-						<p>/mouth</p>
-						<table>
-							<tr>
-							  <td>Hard drive, GB</td>
-							  <td>2</td>							 
-							</tr>
-							<tr>
-							  <td>Transfer,GB</td>
-							  <td>1</td>							 
-							</tr>
-							<tr>
-							  <td>Data Bases</td>
-							  <td>1</td>							 
-							</tr>
-							<tr>
-							  <td>Dashboards</td>
-							  <td>1</td>							 
-							</tr>
-						</table>
-						<button class="boton2">SELECT PLAN</button>	
-					</article>	
-				</li>
-				<li>		
-					<article>
-						<h3>NORMAL PACKAGE</h3>
-						<h4>Photography</h4>
-						<p>/mouth</p>
-						<table>
-							<tr>
-							  <td>Hard drive, GB</td>
-							  <td>5</td>							 
-							</tr>
-							<tr>
-							  <td>Transfer,GB</td>
-							  <td>2</td>							 
-							</tr>
-							<tr>
-							  <td>Data Bases</td>
-							  <td>2</td>							 
-							</tr>
-							<tr>
-							  <td>Dashboards</td>
-							  <td>2</td>							 
-							</tr>
-						</table>
-						<button class="boton2">SELECT PLAN</button>	
-					</article>
-				</li>
-				<li>
-					<article>
-						<h3>BIG PACKAGE</h3>
-						<h4>Web Design</h4>
-						<p>/mouth</p>
-						<table>
-							<tr>
-							  <td>Hard drive, GB</td>
-							  <td>12</td>							 
-							</tr>
-							<tr>
-							  <td>Transfer,GB</td>
-							  <td>5</td>							 
-							</tr>
-							<tr>
-							  <td>Data Bases</td>
-							  <td>5</td>							 
-							</tr>
-							<tr>
-							  <td>Dashboards</td>
-							  <td>5</td>							 
-							</tr>
-						</table>
-						<button class="boton2">SELECT PLAN</button>	
-					</article>
-				</li>
-				<li>
-					<article>
-						<h3>BEST PACKAGE</h3>
-						<h4>Web Design</h4>
-						<p>/mouth</p>
-						<table>
-							<tr>
-							  <td>Hard drive, GB</td>
-							  <td>20</td>							 
-							</tr>
-							<tr>
-							  <td>Transfer,GB</td>
-							  <td>10</td>							 
-							</tr>
-							<tr>
-							  <td>Data Bases</td>
-							  <td>10</td>							 
-							</tr>
-							<tr>
-							  <td>Dashboards</td>
-							  <td>10</td>							 
-							</tr>
-						</table>
-						<button class="boton2">SELECT PLAN</button>	
-					</article>
-				</li>			
-			</ul>
-		</section>
-
-		<section class="relleno">			
-			<h3>Hosting use <span>500,000</span> happy customers. Want to see services?</h3>			
-		</section>
-
+			<div class="contenedor">
+				<h2>Hostro Services</h2>
+				<p>Duis egestas nibh at ex omare officitur fusce ullamcorper turpis eu lectus</p>
+				<div class="lista1">
+					<ul>
+						<li>							
+							<table>
+								<tr>										
+									<th>
+										<h4>RETINA READY</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>
+									<th><img src="css\imagen\ser1.png"></th>
+								</tr>
+							</table>
+							</article>	
+						</li>
+						<li>							
+							<table>
+								<tr>
+									<th>
+										<h4>EASY CUSTOMIZE</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>
+									<th><img src="css\imagen\ser2.png"></th>
+								</tr>
+							</table>	
+							</article>
+						</li>
+						<li>							
+							<table>
+								<tr>										
+									<th>
+										<h4>PIXEL PERFECT</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>
+									<th><img src="css\imagen\ser3.png"></th>
+								</tr>
+							</table>							
+						</li>			
+					</ul>
+				</div>
+				<div class="celular">
+					<img src="css\imagen\iphone2.png">
+				</div>
+				<div class="lista2">
+					<ul>
+						<li>							
+							<table>
+								<tr>
+									<th><img src="css\imagen\ser4.png"></th>
+									<th>
+										<h4>UNLIMITED COLORS</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>
+								</tr>
+							</table>							
+						</li>
+						<li>							
+							<table>
+								<tr>
+									<th><img src="css\imagen\ser5.png"></th>
+									<th>
+										<h4>FEATURES</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>
+								</tr>
+							</table>							
+						</li>
+						<li>							
+							<table>
+								<tr>
+									<th><img src="css\imagen\ser6.png"></th>
+									<th>
+										<h4>SUPPORT TODAY</h4>
+										<p>Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</p>
+									</th>	
+								</tr>
+							</table>
+							
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</section>		
+		<section class="interes3">			
+			<div class="banner2">
+				<img src="css\imagen\pricing-bg.jpg" alt="Mi titulo de la imagen">
+				<h2><span>Pricing Tables</span></h2><br>
+				<p><span>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</span></p>					
+			</div>	
+			<div class="contenedor">
+				<ul class="paquete">
+					<li>
+						<article>
+							<h3>SMALL PACKAGE</h3>
+							<h4>$<span>15</span><sup>.99</sup></h4>
+							<p>/mouth</p>
+							<table class="precio1">
+								<tr>
+								  <td>Hard drive, GB</td>
+								  <td>2</td>							 
+								</tr>
+								<tr>
+								  <td>Transfer,GB</td>
+								  <td>1</td>							 
+								</tr>
+								<tr>
+								  <td>Data Bases</td>
+								  <td>1</td>							 
+								</tr>
+								<tr>
+								  <td>Dashboards</td>
+								  <td>1</td>							 
+								</tr>
+							</table>
+							<button class="boton2">SELECT PLAN</button>	
+						</article>	
+					</li>
+					<li>		
+						<article>
+							<h3>NORMAL PACKAGE</h3>
+							<h4>$<span>49</span>.99</h4>
+							<p>/mouth</p>
+							<table class="precio2">
+								<tr>
+								  <td>Hard drive, GB</td>
+								  <td>5</td>							 
+								</tr>
+								<tr>
+								  <td>Transfer,GB</td>
+								  <td>2</td>							 
+								</tr>
+								<tr>
+								  <td>Data Bases</td>
+								  <td>2</td>							 
+								</tr>
+								<tr>
+								  <td>Dashboards</td>
+								  <td>2</td>							 
+								</tr>
+							</table>
+							<button class="boton2">SELECT PLAN</button>	
+						</article>
+					</li>
+					<li>
+						<article>
+							<h3>BIG PACKAGE</h3>
+							<h4>$<span><sub>99</sub></span>.99</h4>
+							<p>/mouth</p>
+							<table class="precio3">
+								<tr>
+								  <td>Hard drive, GB</td>
+								  <td>12</td>							 
+								</tr>
+								<tr>
+								  <td>Transfer,GB</td>
+								  <td>5</td>							 
+								</tr>
+								<tr>
+								  <td>Data Bases</td>
+								  <td>5</td>							 
+								</tr>
+								<tr>
+								  <td>Dashboards</td>
+								  <td>5</td>							 
+								</tr>
+							</table>
+							<button class="boton2">SELECT PLAN</button>	
+						</article>
+					</li>
+					<li>
+						<article>
+							<h3>BEST PACKAGE</h3>
+							<h4>$<span>199</span>.99</h4>
+							<p>/mouth</p>
+							<table class="precio4">
+								<tr>
+								  <td>Hard drive, GB</td>
+								  <td>20</td>							 
+								</tr>
+								<tr>
+								  <td>Transfer,GB</td>
+								  <td>10</td>							 
+								</tr>
+								<tr>
+								  <td>Data Bases</td>
+								  <td>10</td>							 
+								</tr>
+								<tr>
+								  <td>Dashboards</td>
+								  <td>10</td>							 
+								</tr>
+							</table>
+							<button class="boton2">SELECT PLAN</button>	
+						</article>
+					</li>			
+				</ul>
+			</div>				
+		</section>			
+			<section class="relleno">			
+				<h3>Hosting use <span>500,000</span> happy customers. Want to see services?</h3>		
+			</section>			
 		<footer>
-			<p>
-				© Hostro All right reserved
-			</p>	
-			<ul class="almenu">
-				<li><span>Home</span></li>
-				<li><span>Contact</span></li>				
-			</ul>			
+			<div class="contenedor">					
+				<p>© Hostro All right reserved</p>	
+				<ul class="almenu">
+					<li><a href="home"><span>Home</span></a></li>
+					<li><a href="contact"><span>Contact</span></a></li>				
+				</ul>
+			</div>									
 		</footer>
 	</body>
 </html>
