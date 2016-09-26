@@ -10,25 +10,31 @@
 	<body>		
 		<nav>
 			<div class="contenedor">
-				<div class="logo">
-					<img class="logo"src="css\imagen\logo1.png">
-				</div>
-				<ul class="menu-izquierda">
-					<li><a href="home.html">HOME</a></li>
-            		<li><a href="contact.html">CONTACT</a></li>            	
-				</ul>					
+				<div class="menu">
+					<div class="logo">
+						<img class="logo"src="css\imagen\logo1.png">
+					</div>
+					<ul class="menu-izquierda">
+						<li><a href="home.html">HOME</a></li>
+	            		<li><a href="contact.html">CONTACT</a></li>    	
+					</ul>	
+				</div>				
 			</div>								
 		</nav>
 		<header>	
-			<div class="banner">
-				<span class="text_encima1">regular updates</span>
-				<span class="text_encima2">Curabitur ultricies elementum mauris eu dapibus dui alquet mauris euismod neque molestie</span>
+			<div class="banner">				
+					<span class="text_encima1">regular updates</span>
+					<span class="text_encima2">Curabitur ultricies elementum mauris eu dapibus dui alquet mauris euismod neque molestie</span>		
 				<img src="css\imagen\banner1.jpg">
 			</div>
-			<form class="buscador">
-				 <input type="text" placeholder="Enter you domain name and hit enter">
-				 <button type="submit" class="boton1" src="ion-search">SEARCH</button>
-			</form>				
+			<ul class="buscador">
+				<li>
+					<input type="text" placeholder="Enter you domain name and hit enter">
+				</li>
+				<li>
+					<button type="submit" class="boton1"><span class="ion-ios-search-strong"></span>SEARCH</button>
+				</li>
+			</ul>				
 		</header>
 		<section class="interes">
 			<div class="contenedor">
@@ -175,112 +181,114 @@
 				<img src="css\imagen\pricing-bg.jpg">					
 			</div>	
 			<div class="contenedor">
-				<ul class="combo">
-					<li>
-						<article>
-							<h3>SMALL PACKAGE</h3>
-							<h4>$<span>15</span><sup>.99</sup></h4>
-							<p>/mouth</p>
-							<table class="precio1">
-								<tr>
-								  <td>Hard drive, GB</td>
-								  <td>2</td>							 
-								</tr>
-								<tr>
-								  <td>Transfer,GB</td>
-								  <td>1</td>							 
-								</tr>
-								<tr>
-								  <td>Data Bases</td>
-								  <td>1</td>							 
-								</tr>
-								<tr>
-								  <td>Dashboards</td>
-								  <td>1</td>							 
-								</tr>
-							</table>
-							<button class="boton2">SELECT PLAN</button>	
-						</article>	
-					</li>
-					<li>		
-						<article>
-								<h3>NORMAL PACKAGE</h3>
-								<h4>$<span>49</span>.99</h4>
+				<div class="combo">
+					<ul>
+						<li>
+							<article>
+								<h3>SMALL PACKAGE</h3>
+								<h4><span>$</span><span>15</span><span>.99</span></h4>
 								<p>/mouth</p>
-								<table class="precio2">
+								<table class="precio1">
 									<tr>
 									  <td>Hard drive, GB</td>
-									  <td>5</td>							 
+									  <td>2</td>							 
 									</tr>
 									<tr>
 									  <td>Transfer,GB</td>
-									  <td>2</td>							 
+									  <td>1</td>							 
 									</tr>
 									<tr>
 									  <td>Data Bases</td>
-									  <td>2</td>							 
+									  <td>1</td>							 
 									</tr>
 									<tr>
 									  <td>Dashboards</td>
-									  <td>2</td>							 
+									  <td>1</td>							 
 									</tr>
 								</table>
 								<button class="boton2">SELECT PLAN</button>	
-						</article>
-					</li>
-					<li>
-						<article>
-							<h3>BIG PACKAGE</h3>
-							<h4>$<span><sub>99</sub></span>.99</h4>
-							<p>/mouth</p>
-							<table class="precio3">
-								<tr>
-								  <td>Hard drive, GB</td>
-								  <td>12</td>							 
-								</tr>
-								<tr>
-								  <td>Transfer,GB</td>
-								  <td>5</td>							 
-								</tr>
-								<tr>
-								  <td>Data Bases</td>
-								  <td>5</td>							 
-								</tr>
-								<tr>
-								  <td>Dashboards</td>
-								  <td>5</td>							 
-								</tr>
-							</table>
-							<button class="boton2">SELECT PLAN</button>	
-						</article>
-					</li>
-					<li>
-						<article>
-							<h3>BEST PACKAGE</h3>
-							<h4>$<span>199</span>.99</h4>
-							<p>/mouth</p>
-							<table class="precio4">
-								<tr>
-								  <td>Hard drive, GB</td>
-								  <td>20</td>							 
-								</tr>
-								<tr>
-								  <td>Transfer,GB</td>
-								  <td>10</td>							 
-								</tr>
-								<tr>
-								  <td>Data Bases</td>
-								  <td>10</td>							 
-								</tr>
-								<tr>
-								  <td>Dashboards</td>
-								  <td>10</td>							 
-								</tr>
-							</table>
-							<button class="boton2">SELECT PLAN</button>	
-						</article>
-					</li>			
-				</ul>
+							</article>	
+						</li>
+						<li>		
+							<article>
+									<h3>NORMAL PACKAGE</h3>
+									<h4><span>$</span><span>49</span><span>.99</span></h4>
+									<p>/mouth</p>
+									<table class="precio2">
+										<tr>
+										  <td>Hard drive, GB</td>
+										  <td>5</td>							 
+										</tr>
+										<tr>
+										  <td>Transfer,GB</td>
+										  <td>2</td>							 
+										</tr>
+										<tr>
+										  <td>Data Bases</td>
+										  <td>2</td>							 
+										</tr>
+										<tr>
+										  <td>Dashboards</td>
+										  <td>2</td>							 
+										</tr>
+									</table>
+									<button class="boton2">SELECT PLAN</button>	
+							</article>
+						</li>
+						<li>
+							<article>
+								<h3>BIG PACKAGE</h3>
+								<h4><span>$</span><span>99</span><span>.99</span></h4>
+								<p>/mouth</p>
+								<table class="precio3">
+									<tr>
+									  <td>Hard drive, GB</td>
+									  <td>12</td>							 
+									</tr>
+									<tr>
+									  <td>Transfer,GB</td>
+									  <td>5</td>							 
+									</tr>
+									<tr>
+									  <td>Data Bases</td>
+									  <td>5</td>							 
+									</tr>
+									<tr>
+									  <td>Dashboards</td>
+									  <td>5</td>							 
+									</tr>
+								</table>
+								<button class="boton2">SELECT PLAN</button>	
+							</article>
+						</li>
+						<li>
+							<article>
+								<h3>BEST PACKAGE</h3>
+								<h4><span>$</span><span>199</span><span>.99</span></h4>
+								<p>/mouth</p>
+								<table class="precio4">
+									<tr>
+									  <td>Hard drive, GB</td>
+									  <td>20</td>							 
+									</tr>
+									<tr>
+									  <td>Transfer,GB</td>
+									  <td>10</td>							 
+									</tr>
+									<tr>
+									  <td>Data Bases</td>
+									  <td>10</td>							 
+									</tr>
+									<tr>
+									  <td>Dashboards</td>
+									  <td>10</td>							 
+									</tr>
+								</table>
+								<button class="boton2">SELECT PLAN</button>	
+							</article>
+						</li>			
+					</ul>
+				</div>
 			</div>				
 		</section>			
 			<section class="relleno">			
@@ -288,11 +296,14 @@
 			</section>			
 		<footer>
 			<div class="contenedor">					
-				<p>© Hostro All right reserved</p>	
-				<ul class="almenu">
-					<li><a href="home"><span>Home</span></a></li>
-					<li><a href="contact"><span>Contact</span></a></li>				
-				</ul>
+				<p>© Hostro All right reserved</p>
+				<div class="almenu">	
+					<ul>
+						<li><a href="home">Home</a></li>
+						<li><a href="contact">Contact</a></li>
+						<li><a href="up" class="ion-chevron-up"></a></li>	
+					</ul>
+				</div>
 			</div>									
 		</footer>
 	</body>

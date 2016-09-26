@@ -1,0 +1,179 @@
+@import "reset";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+$t-letra1: 'Open Sans', sans-serif;
+$t-letra2: 'Raleway', sans-serif;
+$c-boton: #00BFFF;
+
+.contenedor {
+	max-width: 1200px;
+	margin: auto;
+}
+
+nav{
+	padding: 40px 0;
+	ul{
+		li{
+			margin:10px 10px;
+		}
+	}	
+}
+
+.menu{
+	ul {
+		li{
+			a{
+				text-decoration: none;
+				color: black;
+				font-size: 15px;
+			}
+		}
+	}
+	.logo{
+	display: inline-block;
+	position: absolute;	
+	}
+	.menu-izquierda{
+		float: right;
+		li{
+			display: inline-block;
+			font-family: $t-letra1;
+			font-weight: bold;	
+			position: relative;	
+		}
+	}	
+}
+
+.banner{
+	img{
+	width:100%;
+	height:auto;
+	z-index: 1;
+	position: relative;
+	}
+}
+
+.text_encima1{
+	font-size: 40px;
+	font-family: $t-letra2;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+	padding: 12% 0 0 32.4%;
+}
+
+.text_encima2{
+	width:550px;
+	font-size: 15px;
+	font-family: $t-letra2;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	line-height: 30px;
+	z-index: 2;
+	text-align: center;
+	padding: 17% 0 0 20%;
+}
+
+.formulario{
+	margin: 100px 0;
+	h2{
+		font-weight: bold;
+		font-size: 30px;
+		font-family: $t-letra2;
+		text-align: center;
+	}
+	p{
+		font-family: $t-letra2;
+		text-align: center;
+		padding-top: 25px;
+	}
+	.casillas{
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		.lista{
+			
+			li{
+				margin-bottom:20px;
+				margin-right: 10px;
+				input{
+					width: 500px;
+					height: 30px;
+				}
+			}
+		}
+		.mensaje{
+			textarea{
+				width: 500px;
+				height: 142px;
+				margin-left:10px;
+			}
+		}
+	}
+	.boton{
+		width: 100px;
+		height: 40px;
+		background: $c-boton;
+		border-radius: 5px;
+		border: none;
+		color: white;
+		font-family: $t-letra1;
+		font-weight: bold;
+		&:hover{
+			background: darken($c-boton, 30%);
+			transition-duration: 1s;
+		}	
+	}
+}
+
+.relleno{
+	width: 100%;
+	box-sizing: border-box;
+	background:#00223b;
+	color: white; 
+	text-align: center;
+	padding: 5% 0;
+	margin-top: 50px;
+	h3{
+		display: inline-block;
+		font-family: $t-letra2;
+		span{
+			color:#00BFFF;
+			font-size: 30px;
+			font-family: $t-letra1;
+			font-weight: bold;
+		}
+	}
+}
+
+footer {
+	width: 100%;
+	background: #001321;	
+	font-family: $t-letra1;
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	padding:20px 0;
+	p{
+		color: white;
+		display: inline-block;
+		margin-left: 10px;
+	}
+}
+.almenu{
+	float: right;
+	padding:10px 0;
+	li{
+		display: inline-block;
+		margin: 0 10px;
+		a{
+			color: #fff;
+			display: inline-block;
+			text-align: center;
+			box-sizing:border-box;
+			text-decoration: none;			
+		}
+	}
+}
