@@ -28,8 +28,11 @@ nav{
 		li{
 			a{
 				text-decoration: none;
-				color: ;
+				color: #c1c2c7;
 				font-size: 15px;
+				&:hover{
+					color: darken(#c1c2c7, 60%);
+				}
 			}
 		}
 	}
@@ -39,46 +42,48 @@ nav{
 	}
 	.menu-izquierda{
 		float: right;
-		}
 		li{
 			display: inline-block;
 			font-family: $t-letra1;
 			font-weight: bold;	
 			position: relative;			
 		}
-	}	
+	}		
 }
 
 .banner{
+	.text_encima1{
+		width: 100%;	
+		font-size: 45px;
+		font-family: $t-letra2;
+		font-weight: bold;
+		text-transform: capitalize;
+		color: #fff;
+		position: absolute;
+		z-index: 2;
+		text-align:left;
+		margin: 10% 0 0 13%;
+	}
+	.text_encima2{
+		width: 25%;	
+		font-size: 15px;
+		font-family: $t-letra2;
+		font-weight: bold;
+		color: #fff;
+		text-align: left;
+		position: absolute;
+		z-index: 2;
+		margin:15% 0 0 13%;
+		line-height: 30px;
+
+	}
 	img{
-	width:100%;
-	height:auto;
-	z-index: 1;
-	position: relative;
+		width:100%;
+		height:auto;
+		z-index: 1;
+		position: relative;
 	}
 }
-
-.text_encima1{	
-	font-size: 40px;
-	font-family: $t-letra2;
-	font-weight: bold;
-	text-transform: capitalize;
-	color: #fff;
-	position: absolute;
-	z-index: 2;
-}
-
-.text_encima2{
-	width: 25%;	
-	font-size: 15px;
-	font-family: $t-letra2;
-	font-weight: bold;
-	color: #fff;
-	text-align: left;
-	position: absolute;
-	z-index: 2;
-}
-
 
 .buscador {
     width: 800px;
@@ -114,12 +119,6 @@ nav{
 	    span{
 	    	padding-right:10px;
 	    }	    
-	}
-	@media screen and(max-width:600px){
-		width:400px;
-	}
-	@media screen and(max-width:320px){
-		width:50px;
 	}
 }
 
@@ -392,27 +391,28 @@ footer {
 	display: inline-block;
 	padding:20px 0;
 	p{
-		color: white;
+		color: #90909c;
 		display: inline-block;
 		margin-left: 10px;
 	}
-}
-
-.almenu{
-	float: right;
-	padding:10px 0;
-	li{
-		display: inline-block;
-		margin: 0 10px;
-		a{
-			color: #fff;
+	.almenu{
+		float: right;
+		padding:10px 0;
+		li{
 			display: inline-block;
-			text-align: center;
-			box-sizing:border-box;
-			text-decoration: none;			
+			margin: 0 10px;
+			a{
+				color: #90909c;
+				display: inline-block;
+				text-align: center;
+				box-sizing:border-box;
+				text-decoration: none;			
+			}
 		}
 	}
 }
+
+
 
 h2{
 	font-family: $t-letra1;
