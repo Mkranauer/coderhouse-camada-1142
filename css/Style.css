@@ -45,31 +45,56 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+nav {
+  padding: 40px 0; }
+  nav .menu ul li a {
+    text-decoration: none;
+    color: #c1c2c7;
+    font-size: 15px; }
+    nav .menu ul li a:hover {
+      color: #292a2d; }
+  nav .menu .logo {
+    display: inline-block;
+    position: absolute; }
+  nav .menu .menu-izquierda {
+    float: right; }
+    nav .menu .menu-izquierda li {
+      display: inline-block;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      position: relative;
+      margin: 10px 10px; }
+
+.pie {
+  width: 100%;
+  background: #091722;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 20px 0; }
+  .pie p {
+    color: #90909c;
+    display: inline-block;
+    margin-left: 10px; }
+  .pie .almenu {
+    float: right;
+    padding: 10px 0; }
+    .pie .almenu li {
+      display: inline-block;
+      margin: 0 10px; }
+      .pie .almenu li a {
+        color: #90909c;
+        display: inline-block;
+        text-align: center;
+        box-sizing: border-box;
+        text-decoration: none; }
+        .pie .almenu li a:hover {
+          color: black; }
+
 .contenedor {
   max-width: 1200px;
   margin: auto; }
-
-nav {
-  padding: 40px 0; }
-  nav ul li {
-    margin: 10px 10px; }
-
-.menu ul li a {
-  text-decoration: none;
-  color: #c1c2c7;
-  font-size: 15px; }
-  .menu ul li a:hover {
-    color: #292a2d; }
-.menu .logo {
-  display: inline-block;
-  position: absolute; }
-.menu .menu-izquierda {
-  float: right; }
-  .menu .menu-izquierda li {
-    display: inline-block;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    position: relative; }
 
 .banner .text_encima1 {
   width: 100%;
@@ -302,31 +327,6 @@ nav {
       font-size: 30px;
       font-family: "Open Sans", sans-serif;
       font-weight: bold; }
-
-footer {
-  width: 100%;
-  background: #091722;
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  font-size: 12px;
-  display: inline-block;
-  padding: 20px 0; }
-  footer p {
-    color: #90909c;
-    display: inline-block;
-    margin-left: 10px; }
-  footer .almenu {
-    float: right;
-    padding: 10px 0; }
-    footer .almenu li {
-      display: inline-block;
-      margin: 0 10px; }
-      footer .almenu li a {
-        color: #90909c;
-        display: inline-block;
-        text-align: center;
-        box-sizing: border-box;
-        text-decoration: none; }
 
 h2 {
   font-family: "Open Sans", sans-serif;

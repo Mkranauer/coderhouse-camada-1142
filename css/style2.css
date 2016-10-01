@@ -42,37 +42,75 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+nav {
+  padding: 40px 0; }
+  nav .menu ul li a {
+    text-decoration: none;
+    color: #c1c2c7;
+    font-size: 15px; }
+    nav .menu ul li a:hover {
+      color: #292a2d; }
+  nav .menu .logo {
+    display: inline-block;
+    position: absolute; }
+  nav .menu .menu-izquierda {
+    float: right; }
+    nav .menu .menu-izquierda li {
+      display: inline-block;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold;
+      position: relative;
+      margin: 10px 10px; }
+
+.relleno {
+  width: 100%;
+  box-sizing: border-box;
+  background: #00223b;
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+  margin-top: 50px; }
+  .relleno h3 {
+    display: inline-block;
+    font-family: "Raleway", sans-serif; }
+    .relleno h3 span {
+      color: #00BFFF;
+      font-size: 30px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: bold; }
+
+.pie {
+  width: 100%;
+  background: #091722;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 20px 0; }
+  .pie p {
+    color: #90909c;
+    display: inline-block;
+    margin-left: 10px; }
+  .pie .almenu {
+    float: right;
+    padding: 10px 0; }
+    .pie .almenu li {
+      display: inline-block;
+      margin: 0 10px; }
+      .pie .almenu li a {
+        color: #90909c;
+        display: inline-block;
+        text-align: center;
+        box-sizing: border-box;
+        text-decoration: none; }
+        .pie .almenu li a:hover {
+          color: black; }
+
 .contenedor {
   max-width: 1200px;
   margin: auto; }
 
-nav {
-  padding: 40px 0; }
-  nav ul li {
-    margin: 10px 10px; }
-
-.menu ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px; }
-.menu .logo {
-  display: inline-block;
-  position: absolute; }
-.menu .menu-izquierda {
-  float: right; }
-  .menu .menu-izquierda li {
-    display: inline-block;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    position: relative; }
-
-.banner img {
-  width: 100%;
-  height: auto;
-  z-index: 1;
-  position: relative; }
-
-.text_encima1 {
+.banner .text_encima1 {
   font-size: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -81,8 +119,7 @@ nav {
   position: absolute;
   z-index: 2;
   padding: 12% 0 0 32.4%; }
-
-.text_encima2 {
+.banner .text_encima2 {
   width: 550px;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -93,6 +130,11 @@ nav {
   z-index: 2;
   text-align: center;
   padding: 17% 0 0 20%; }
+.banner img {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: relative; }
 
 .formulario {
   margin: 100px 0; }
@@ -114,65 +156,30 @@ nav {
       margin-right: 10px; }
       .formulario .casillas .lista li input {
         width: 500px;
-        height: 30px; }
+        height: 30px;
+        padding-left: 10px;
+        font-family: "Raleway", sans-serif; }
     .formulario .casillas .mensaje textarea {
       width: 500px;
       height: 142px;
-      margin-left: 10px; }
-  .formulario .boton {
-    width: 100px;
-    height: 40px;
-    background: #00BFFF;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold; }
-    .formulario .boton:hover {
-      background: #004c66;
-      transition-duration: 1s; }
-
-.relleno {
-  width: 100%;
-  box-sizing: border-box;
-  background: #00223b;
-  color: white;
-  text-align: center;
-  padding: 5% 0;
-  margin-top: 50px; }
-  .relleno h3 {
-    display: inline-block;
-    font-family: "Raleway", sans-serif; }
-    .relleno h3 span {
-      color: #00BFFF;
-      font-size: 30px;
+      margin-left: 10px;
+      padding-left: 10px;
+      padding-top: 10px;
+      font-family: "Raleway", sans-serif; }
+  .formulario div {
+    display: flex;
+    justify-content: center; }
+    .formulario div .boton {
+      width: 100px;
+      height: 40px;
+      background: #00BFFF;
+      border-radius: 5px;
+      border: none;
+      color: white;
       font-family: "Open Sans", sans-serif;
       font-weight: bold; }
-
-footer {
-  width: 100%;
-  background: #001321;
-  font-family: "Open Sans", sans-serif;
-  color: white;
-  font-size: 12px;
-  display: inline-block;
-  padding: 20px 0; }
-  footer p {
-    color: white;
-    display: inline-block;
-    margin-left: 10px; }
-
-.almenu {
-  float: right;
-  padding: 10px 0; }
-  .almenu li {
-    display: inline-block;
-    margin: 0 10px; }
-    .almenu li a {
-      color: #fff;
-      display: inline-block;
-      text-align: center;
-      box-sizing: border-box;
-      text-decoration: none; }
+      .formulario div .boton:hover {
+        background: #004c66;
+        transition-duration: 1s; }
 
 /*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,35 @@
+$t-letra1: 'Open Sans', sans-serif;
+
+nav{
+	padding: 40px 0;
+	.menu{
+		ul {
+			li{
+				a{
+					text-decoration: none;
+					color: #c1c2c7;
+					font-size: 15px;
+					&:hover{
+					color: darken(#c1c2c7, 60%);
+				}
+				}
+			}
+		}
+		.logo{
+		display: inline-block;
+		position: absolute;	
+		}
+		.menu-izquierda{
+			float: right;
+			li{
+				display: inline-block;
+				font-family: $t-letra1;
+				font-weight: bold;	
+				position: relative;	
+				margin:10px 10px;
+			}			
+		}	
+	}	
+}
+
+

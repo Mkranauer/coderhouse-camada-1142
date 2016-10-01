@@ -4,6 +4,8 @@
 }*/
 @import "reset";
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway';
+@import "navegador";
+@import "pie de pagina";
 
 $t-letra1: 'Open Sans', sans-serif;
 $t-letra2: 'Raleway', sans-serif;
@@ -12,43 +14,6 @@ $c-boton: #00BFFF;
 .contenedor {
 	max-width: 1200px;
 	margin: auto;
-}
-
-nav{
-	padding: 40px 0;
-	ul{
-		li{
-			margin:10px 10px;
-		}
-	}	
-}
-
-.menu{
-	ul {
-		li{
-			a{
-				text-decoration: none;
-				color: #c1c2c7;
-				font-size: 15px;
-				&:hover{
-					color: darken(#c1c2c7, 60%);
-				}
-			}
-		}
-	}
-	.logo{
-	display: inline-block;
-	position: absolute;	
-	}
-	.menu-izquierda{
-		float: right;
-		li{
-			display: inline-block;
-			font-family: $t-letra1;
-			font-weight: bold;	
-			position: relative;			
-		}
-	}		
 }
 
 .banner{
@@ -369,58 +334,6 @@ nav{
 		transition-duration: 1s;
 	}	
 }
-
-.relleno{
-	width: 100%;
-	box-sizing: border-box;
-	background:#142e3f;
-	color: white; 
-	text-align: center;
-	padding: 5% 0;
-	margin-top: 50px;
-	h3{
-		display: inline-block;
-		font-family: $t-letra2;
-		span{
-			color:#00BFFF;
-			font-size: 30px;
-			font-family: $t-letra1;
-			font-weight: bold;
-		}
-	}
-}
-
-footer {
-	width: 100%;
-	background: #091722;	
-	font-family: $t-letra1;
-	color: white;
-	font-size: 12px;
-	display: inline-block;
-	padding:20px 0;
-	p{
-		color: #90909c;
-		display: inline-block;
-		margin-left: 10px;
-	}
-	.almenu{
-		float: right;
-		padding:10px 0;
-		li{
-			display: inline-block;
-			margin: 0 10px;
-			a{
-				color: #90909c;
-				display: inline-block;
-				text-align: center;
-				box-sizing:border-box;
-				text-decoration: none;			
-			}
-		}
-	}
-}
-
-
 
 h2{
 	font-family: $t-letra1;
